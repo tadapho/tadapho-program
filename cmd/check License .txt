@@ -1,0 +1,8 @@
+ถอน License Windows 10
+C:\Windows\system32>slmgr /upk
+C:\Windows\system32>slmgr /cpky
+
+เช็ค License
+slmgr /xpr
+wmic path softwarelicensingservice get OA3xOriginalProductKey
+slmgr.vbs /dli
